@@ -4,15 +4,11 @@ on:
   push:
     branches:
       - master
-
-permissions:
-  contents: write
-  
 env:
   SITE_DIR: "gh-pages"
 jobs:
   build_site:
-    name: "Build site with Antora!"
+    name: "Build site with Antora"
     runs-on: [ubuntu-latest]
     steps:
       - name: Checkout
