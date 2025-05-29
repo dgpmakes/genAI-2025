@@ -6,6 +6,10 @@ on:
       - master
 env:
   SITE_DIR: "gh-pages"
+
+permissions:
+  contents: write
+  
 jobs:
   build_site:
     name: "Build site with Antora"
