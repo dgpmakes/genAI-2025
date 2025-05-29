@@ -3,7 +3,7 @@ runtime:
 
 site:
   title: InstructLab from the start
-  url: https://github.com/dgpmakes/instructlab-start
+  url: https://github.com/dgpmakes/genAI-2025
   start_page: instructlab::index.adoc
 
 content:
