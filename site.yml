@@ -2,9 +2,9 @@ runtime:
   cache_dir: ./.cache/antora
 
 site:
-  title: Template Tutorial
-  url: https://github.com/dgpmakes/genAI-2025
-  start_page: template-tutorial::index.adoc
+  title: InstructLab from the start
+  url: https://github.com/dgpmakes/instructlab-start
+  start_page: instructlab::index.adoc
 
 content:
   sources:
